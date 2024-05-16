@@ -1,0 +1,19 @@
+{
+    "dropDown": "#dropdown-class-example",
+    "imageUpload": ".image-upload-wrapper",
+    "uploadedImage": ".image-upload-wrapper>img",
+    "openTabButton": "#opentab",
+    "alertNameTextBox": "#name",
+    "alertButton": "#alertbtn",
+    "confirmButton": "#confirmbtn",
+    "hideButton": "#hide-textbox",
+    "showButton": "#show-textbox",
+    "hideShowExample": "#displayed-text",
+    "hoverButton": ".hover-container",
+    "hoverContent": ".hover-content",
+    "hoverContentTop": ".hover-content a[href=\"#top\"]",
+    "hoverContentReload": ".hover-content a[href=\"\"]",
+    "iframeId": "#courses-iframe",
+    "socialMediaFooter": ".gf-li"
+
+}
