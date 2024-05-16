@@ -24,7 +24,7 @@ describe('Easy generator test ', () => {
 
   // Before each test, visit the task.html page
   beforeEach(() => {
-    cy.visit('task.html')
+    cy.visit('cypress\\fixtures\\testFiles\\task.html')
   })
 
   // Test 1: Validate dropdown options on the home page

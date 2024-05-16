@@ -1,6 +1,7 @@
 {
-  "logoImageFilePath": "logo.jpg",
+  "logoImageFilePath": "cypress\\fixtures\\testFiles\\logo.jpg",
   "websiteLink": "https://easygenerator.com/",
   "newTabLink": "https://www.easygenerator.com/en/",
-  "alertTextFilePath": "alert-text.txt"
+  "alertTextFilePath": "cypress\\fixtures\\testFiles\\alert-text.txt",
+  "taskHtmlPath": "cypress\\fixtures\\testFiles\\task.html"
 }

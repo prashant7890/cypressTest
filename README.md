@@ -17,7 +17,7 @@
   `npx cypress run`
 
 ## Notes
-- I have kept task.html & alert-text.txt file on root level
-- Using logo.jpg for file upload test case
+- I have kept task.html & alert-text.txt file in cypress>fixtures>testFiles folder
+- Using logo.jpg file to check upload functionlity
 - All the tests are written in file easyGeneratorTest.cy.js
 

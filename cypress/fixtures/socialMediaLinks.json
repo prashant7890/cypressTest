@@ -1,16 +1,16 @@
 {
-    "socialMediaLinks": [
-        {
-            "socialMedia": "Facebook",
-            "link":"https://www.facebook.com/easygenerator/"
-        },
-        {
-            "socialMedia": "Twitter",
-            "link":"https://twitter.com/easygenerator"
-        },
-        {
-            "socialMedia": "Youtube",
-            "link":"https://www.youtube.com/user/easygenerator"
-        }
-    ]
+  "socialMediaLinks": [
+    {
+      "socialMedia": "Facebook",
+      "link": "https://www.facebook.com/easygenerator/"
+    },
+    {
+      "socialMedia": "Twitter",
+      "link": "https://twitter.com/easygenerator"
+    },
+    {
+      "socialMedia": "Youtube",
+      "link": "https://www.youtube.com/user/easygenerator"
+    }
+  ]
 }
