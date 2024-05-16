@@ -1,5 +1,3 @@
-# cypress-regression-tests
-
 ## How To Get Started
 
 - Download and install Node.js, if not already done. You can do it from [nodejs.org](https://nodejs.org/en/download/)
@@ -19,6 +17,7 @@
   `npx cypress run`
 
 ## Notes
-- I have kept task.html file on root level
+- I have kept task.html & alert-text.txt file on root level
+- Using logo.jpg for file upload test case
 - All the tests are written in file easyGeneratorTest.cy.js
 
