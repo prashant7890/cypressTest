@@ -3,5 +3,7 @@
   "websiteLink": "https://easygenerator.com/",
   "newTabLink": "https://www.easygenerator.com/en/",
   "alertTextFilePath": "cypress\\fixtures\\testFiles\\alert-text.txt",
-  "taskHtmlPath": "cypress\\fixtures\\testFiles\\task.html"
+  "taskHtmlPath": "cypress\\fixtures\\testFiles\\task.html",
+  "confirmMessage": "Hello $alertFileText, Are you sure you want to confirm?",
+  "alertMessage": "Hello $alertFileText, share this practice page and share your knowledge"
 }

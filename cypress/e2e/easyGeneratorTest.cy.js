@@ -74,11 +74,10 @@ describe('Easy generator test ', () => {
       // Type text in alert input box, click on alert button, and validate the alert message
       typeEvent({ element: homePage.alertNameTextBox, text: alertFileText })
       clickEvent(homePage.alertButton)
-      const alertMessage =
-        'Hello ' +
-        alertFileText +
-        ',' +
-        ' share this practice page and share your knowledge'
+      const alertMessage = commonTestData.alertMessage.replace(
+        '$alertFileText',
+        alertFileText,
+      )
       cy.on('window:alert', (alertText) => {
         expect(alertText).to.equal(alertMessage)
       })
@@ -86,8 +85,10 @@ describe('Easy generator test ', () => {
       // Type text in confirm input box, click on confirm button, and validate the confirm message
       typeEvent({ element: homePage.alertNameTextBox, text: alertFileText })
       clickEvent(homePage.confirmButton)
-      const confirmMessage =
-        'Hello ' + alertFileText + ',' + ' Are you sure you want to confirm?'
+      const confirmMessage = commonTestData.confirmMessage.replace(
+        '$alertFileText',
+        alertFileText,
+      )
       cy.on('window:confirm', (confirmText) => {
         expect(confirmText).to.equal(confirmMessage)
       })

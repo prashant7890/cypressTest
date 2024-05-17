@@ -16,6 +16,10 @@
 
   `npx cypress run`
 
+- To format and prettify the code use below command in your terminal
+
+ `npx prettier --write "cypress/**/*.js` or `npx prettier --write "cypress/**/*.json`
+
 ## Notes
 - I have kept task.html & alert-text.txt file in cypress>fixtures>testFiles folder
 - Using logo.jpg file to check upload functionlity
